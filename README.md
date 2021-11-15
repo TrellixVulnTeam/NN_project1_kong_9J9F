@@ -1,1 +1,15 @@
-# NN_project1_kong
+# NN_project1
+
+## Installation
+
+
+
+## Training
+
+
+
+## Evaluation
+
+
+
+
