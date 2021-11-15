@@ -1,8 +1,12 @@
 # "Adapting Transformer in Image Segmentation tasks"
-2020021461 Heejo Kong \
-1st project for Applications and Practice in Neural Networks \
-This repository is based on official code of mmsegmentation & SegFormer \
+2020021461 Heejo Kong
+
+1st project for Applications and Practice in Neural Networks
+
+This repository is based on official code of mmsegmentation & SegFormer
+
 https://github.com/open-mmlab/mmsegmentation
+
 https://github.com/NVlabs/SegFormer
 
 
@@ -20,7 +24,8 @@ git clone https://github.com/deepkong/NN_project1_kong.git
 cd NN_project1_kong && pip install -e .
 ```
 
-Donwload [dataset] "Google drive links" \\
+Donwload [dataset] "Google drive links"
+
 Need to prepare the data root as below
 ```
 NN_project1_kong
@@ -39,7 +44,7 @@ NN_project1_kong
 
 
 ## Training
-Donwload [pretrained weights] "Google drive links" \
+Donwload [pretrained weights] "Google drive links"
 ```
 # Single-gpu training
 python tools/train.py local_configs/segformer_drone/segformer.b2.512x512.drone.20k.py
@@ -50,7 +55,7 @@ python tools/train.py local_configs/segformer_drone/segformer.b2.512x512.drone.2
 
 
 ## Evaluation
-Donwload [weights] "Google drive links" \
+Donwload [weights] "Google drive links"
 ```
 # Single-gpu testing
 python tools/test.py local_configs/segformer_drone/segformer.b2.512x512.drone.20k.py /path/to/checkpoint_file --show-dir /path/to/save_file
