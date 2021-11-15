@@ -43,7 +43,7 @@ NN_project1_kong
 
 
 ## Training
-Donwload [pretrained weights] "Google drive links"
+Donwload [pretrained weights] https://drive.google.com/file/d/1VuhtdeQSGl2gxndg_-98HPFJ1qEl3KiH/view?usp=sharing
 ```
 # Single-gpu training
 python tools/train.py local_configs/segformer_drone/segformer.b2.512x512.drone.20k.py
@@ -54,7 +54,7 @@ python tools/train.py local_configs/segformer_drone/segformer.b2.512x512.drone.2
 
 
 ## Evaluation
-Donwload [weights] "Google drive links"
+Donwload [weights] https://drive.google.com/file/d/15X00UIMRd3cmFC7sgKiHu5DCRQhM5zik/view?usp=sharing
 ```
 # Single-gpu testing
 python tools/test.py local_configs/segformer_drone/segformer.b2.512x512.drone.20k.py /path/to/checkpoint_file --show-dir /path/to/save_file
@@ -62,7 +62,3 @@ python tools/test.py local_configs/segformer_drone/segformer.b2.512x512.drone.20
 # Multi-gpu testing
 ./tools/dist_test.sh local_configs/segformer_drone/segformer.b2.512x512.drone.20k.py /path/to/checkpoint_file <GPU_NUM> --show-dir /path/to/save_file
 ```
-
-
-
-
