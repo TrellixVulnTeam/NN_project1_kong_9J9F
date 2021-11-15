@@ -1,6 +1,6 @@
 # dataset settings
 dataset_type = 'DroneDataset'
-data_root = '/home/kong/nn_project/dataset/semantic_drone_dataset/'
+data_root = './data/semantic_drone_dataset/'
 img_norm_cfg = dict(
     mean=[0.485,0.456,0.406], std=[0.229,0.224,0.225], to_rgb=True)
 # img_norm_cfg = dict(
