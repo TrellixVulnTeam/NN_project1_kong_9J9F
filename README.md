@@ -24,7 +24,7 @@ git clone https://github.com/deepkong/NN_project1_kong.git
 cd NN_project1_kong && pip install -e .
 ```
 
-Donwload [dataset] "Google drive links" \\
+Donwload [dataset] https://drive.google.com/file/d/1TTFloQwNdg95h-IJceUtVs1WQl_Bu1Ev/view?usp=sharing \
 Need to prepare the data root as below
 ```
 NN_project1_kong
