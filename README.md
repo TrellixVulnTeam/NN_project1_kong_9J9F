@@ -17,8 +17,8 @@ pip install opencv-python==4.5.1.48
 cd NN_project1_kong && pip install -e .
 ```
 
-Donwload dataset \
-"Google drive links"
+Donwload [dataset] "Google drive links" \ 
+Need to prepare the data root as below
 ```
 NN_project1_kong
 ├── mmseg
