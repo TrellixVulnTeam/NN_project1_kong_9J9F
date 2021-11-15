@@ -17,6 +17,21 @@ pip install opencv-python==4.5.1.48
 cd NN_project1_kong && pip install -e .
 ```
 
+```
+NN_project1_kong
+├── mmseg
+├── tools
+├── local_configs
+├── data
+│   ├── semantic_drone_dataset
+│   │   ├── images
+│   │   ├── labels
+│   │   ├── split
+│   │   │   ├── train.txt
+│   │   │   ├── val.txt
+│   │   │   ├── test.txt
+```
+
 
 ## Training
 
